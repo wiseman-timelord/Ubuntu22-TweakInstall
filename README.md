@@ -1,12 +1,8 @@
 # Ubuntu 22 - Tweaks & Installer
 - Status: Alpha (Not Working, EarlyStage).
 
-<br>
-(editing below here)
-<br>
-
 ### Description:
-This project includes install/tweaking for, ubuntu 25 and ubuntu 25 common packages. The Installer saves time, researching and finding the correct commands, to do basic stuff after install of `Ubuntu 25.04`, ensuring system updates and installations, are printed and errors handled. The tweaker script focuses on implementing features and other tweaks, including the addition of Windows-like common commands to go along side the relating common linux commands. The point is to take the hastle out of the bulk of the work, or if you are new to linux or are unsure.
+This project includes install/tweaking for, ubuntu 22 and ubuntu 22 common packages. The Installer saves time, researching and finding the correct commands, to do basic stuff after install of `Ubuntu 22.x`, ensuring system updates and installations, are printed and errors handled. The tweaker script focuses on implementing features and other tweaks, including the addition of Windows-like common commands to go along side the relating common linux commands. The point is to take the hastle out of the bulk of the work, or if you are new to linux or are unsure.
 
 ### Features:
 - Basic OS installation includes system updates and essential tools like vim, nano, curl, wget, git, and htop. (Both)
@@ -23,7 +19,7 @@ This project includes install/tweaking for, ubuntu 25 and ubuntu 25 common packa
 - The `Main Menu` has sub-menus...
 ```
 ================================================================================
-    Ubuntu 25 - Tweaks and Installer
+    Ubuntu 22 - Tweaks and Installer
 ================================================================================
 
 
@@ -51,18 +47,18 @@ Selection; Menu Options 1-5, Exit Program = X:
 
 ### INSTRUCTIONS:
 1. download the latest release version, and extract to your chosen programs folder (there are no requirements or libraries to install). 
-2. Ensure, `./Ubuntu25-TweakInstall.sh` is executable via `sudo chmod +x ./Ubuntu24-TweakInstall.sh` or `RightClick > Properties > TickExecutable`.
-3. run "sudo ./Ubuntu25-TweakInstall.sh", this will load the bash menu, allowing checking files and launching. Select "Run Program".
+2. Ensure, `./Ubuntu22-TweakInstall.sh` is executable via `sudo chmod +x ./Ubuntu24-TweakInstall.sh` or `RightClick > Properties > TickExecutable`.
+3. run "sudo ./Ubuntu22-TweakInstall.sh", this will load the bash menu, allowing checking files and launching. Select "Run Program".
 4. Investigate the appropriate menus, take a look at what it offers, plan what features you intend to use, and select them (ensuring to note errors that pop up). Ensure to think about what you are doing, dont install stuff you dont need and wont use.
 5. After finishing configutation, then exit the program and restart computer, to enable all tweaks/installs to take effect. 
 6. If there are issues with anything immediately, then check the notes you made (if any), and investigate appropriately to complete relating install/tweak.
 - hopefully whatever tweak or install you did worked out for you, if not, then I advise asking gpt/deepseek/grok/etc, and input the output you got from the terminal with your prompt.
 
 ### Notation:
-- This program is typically tested/updated when the creator does a new install of ubuntu 25.
+- This program is typically tested/updated when the creator does a new install of ubuntu 22.
 - Minimum Windows 10 for Vertio/Kvm/QEmu Drivers from `Virtio-Win-0.1.262.Iso`, Windows 7-81 did not complete Setup.  
-- For `Ubuntu 25` Assistance, I advise, ChatGPT `https://chatgpt.com` or DeepSeek `https://chat.deepseek.com/`, and prompt mentioning your specific version is 25.xx.
-- Version 25 required me to use the USB installer in the motherboard usb port, and would NOT work in the front usb port.
+- For `Ubuntu 22` Assistance, I advise, ChatGPT `https://chatgpt.com` or DeepSeek `https://chat.deepseek.com/`, and prompt mentioning your specific version is 22.xx.
+- Version 22 required me to use the USB installer in the motherboard usb port, and would NOT work in the front usb port.
 - Its a continuation of the `Ubuntu24-TweakInstall` project.
 - Additional Windows Commands in the terminal are shortcut to relating linux commands  (fixing/improving is done here `/etc/profile.d/windows_commands.sh`)...
 ```
@@ -84,7 +80,7 @@ Selection; Menu Options 1-5, Exit Program = X:
 ### File Structure
 Program files are like this...
 ```
-.\Ubuntu25-TweakInstall.sh
+.\Ubuntu22-TweakInstall.sh
 .\launcher.py
 .\scripts\interface.py
 .\scripts\utility.py
