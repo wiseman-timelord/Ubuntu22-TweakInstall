@@ -1,5 +1,5 @@
 # Ubuntu 22 - Tweaks & Installer
-- Status: Alpha (Not Working, EarlyStage).
+- Status: Beta (needs further testing/bugfixing, but mostly works).
 
 ### Description:
 This project includes install/tweaking for, ubuntu 22 and ubuntu 22 common packages. The Installer saves time, researching and finding the correct commands, to do basic stuff after install of `Ubuntu 22.x`, ensuring system updates and installations, are printed and errors handled. The tweaker script focuses on implementing features and other tweaks, including the addition of Windows-like common commands to go along side the relating common linux commands. The point is to take the hastle out of the bulk of the work, or if you are new to linux or are unsure.
